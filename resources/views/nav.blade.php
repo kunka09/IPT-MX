@@ -12,11 +12,11 @@
                 <ul class="navbar-nav me-auto mb-lg-0">
                     @if(Auth::check())
                         <li class="nav-item">
-                            <a class="nav-link box text-white" href="/dashboard"><i class="fas fa-home"></i> Dashboard</a>
+                            <a class="nav-link box text-white" href="/dashboard"> Dashboard</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="far fa-list-alt"></i> Category
+                                 Category
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 @foreach(App\Models\Category::all() as $c)
@@ -26,11 +26,11 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link box text-white" href="/authors"><i class="fas fa-users"></i> Users</a>
+                            <a class="nav-link box text-white" href="/authors"> Users</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link box text-white" href="/logout"><i class="far fa-sign-out"></i> Logout</a>
+                            <a class="nav-link box text-white" href="/logout"> Logout</a>
                         </li>
                     @else
                                 <li><a class=" nav-link box text-white " href="/login">Login</a></li>

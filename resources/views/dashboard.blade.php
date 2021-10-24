@@ -4,8 +4,8 @@
 
 <div class="container bg-transparent padding-bottom: 10px;">
   <div class="float-end mt-4">
-    <a href="/newpost" class="btn btn-primary">
-      <i class="fas fa-money-check-edit"></i> New Post
+    <a href="/newpost" class="btn btn-dark">
+      <i class="fas fa-money-check-edit"></i>
     </a>
   </div>
   <h1 class="text-white pt-2 pb-2">Recent Post</h1>
