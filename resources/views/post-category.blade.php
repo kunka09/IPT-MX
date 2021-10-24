@@ -2,12 +2,12 @@
 
 @section('content')
 
-<div class="container" style="background-color: rgb(9, 240, 163); padding-bottom: 10px;">
+<div class="container bg-transparent padding-bottom: 10px;">
   <h1 class="text-white pt-2 pb-2">{{$category->category}} Post</h1>
   <hr>
   @foreach($posts as $p)
   @if ($p->user->gender == 'Male')
-  <div class="card m-1 mb-3 pb-3 pt-3" style="background-color: lightblue">
+  <div class="card m-1 mb-3 pb-3 pt-3" style="background-color: lightgreen">
   @else
   <div class="card m-1 mb-3 pb-3 pt-3" style="background-color: lightpink">
   @endif

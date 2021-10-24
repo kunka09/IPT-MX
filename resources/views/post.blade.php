@@ -4,8 +4,8 @@
 
 <div class="row">
     <div class="col-md-4 offset-md-4">
-        <div class="card mt-5">
-            <div class="card-header bg-dark bg-gradient text-white">
+        <div class="card text-white bg-dark mt-5">
+            <div class="card-header bg-dark text-white">
                 <h3 class="card-title"><i class="fas fa-money-check-edit"></i> New Post</h3>
             </div>
             <div class="card-body">
